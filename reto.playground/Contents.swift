@@ -186,6 +186,8 @@ for persona in arrayPerson {
    
 }
 
+//generando los usuarios
+
 for persona in arrayPerson {
     
     let usuario=persona.correo.components(separatedBy: "@").first
@@ -196,6 +198,8 @@ for persona in arrayPerson {
     }
 
 }
+
+//mostrando los usuarios
 
 
 for persona in arrayPerson {
